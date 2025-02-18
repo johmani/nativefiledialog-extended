@@ -35,7 +35,7 @@ project "NFDE"
 
 	filter "system:windows"
 		systemversion "latest"
-		staticruntime "off"
+		staticruntime "Off"
 		files
 		{
 			"src/nfd_win.cpp",
@@ -43,8 +43,14 @@ project "NFDE"
 
 	filter "configurations:Debug"
 		runtime "Debug"
-		symbols "on"
+		symbols "On"
 
 	filter "configurations:Release"
 		runtime "Release"
-		optimize "on"
+		optimize "Size"
+		symbols "On"
+
+	filter "configurations:Dist"
+		runtime "Release"
+		optimize "Size"
+        symbols "Off"
