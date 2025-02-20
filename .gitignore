@@ -2,6 +2,8 @@
 /.vs/
 /out/
 /CMakeSettings.json
+*.filters
+*.vcxproj
 
 # Mac OS X rubbish
 .DS_Store
