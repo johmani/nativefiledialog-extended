@@ -4,6 +4,7 @@
 /CMakeSettings.json
 *.filters
 *.vcxproj
+*.user
 
 # Mac OS X rubbish
 .DS_Store
