@@ -9,6 +9,7 @@ project "NFDE"
 	files
 	{
 		"src/include/nfd.hpp",
+		"*.lua",
 	}
 
 	includedirs
