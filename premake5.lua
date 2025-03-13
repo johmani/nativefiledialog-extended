@@ -1,4 +1,5 @@
 project "NFDE"
+	location (projectLocation)
 	kind "StaticLib"
 	language "C++"
 	cppdialect "C++20"
